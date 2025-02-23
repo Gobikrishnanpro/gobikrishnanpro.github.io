@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobi Krishnan - Java Full Stack Prodigy</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white font-sans overflow-x-hidden">
+    <!-- Particles Background -->
+    <div id="particles-js" class="absolute inset-0 z-0"></div>
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full bg-gray-900 p-4 z-20 border-b-2 border-teal-600 shadow-neon transition-all duration-300" id="navbar">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="tilt-box" data-tilt data-tilt-max="15" data-tilt-speed="300">
+                <h1 class="text-3xl font-extrabold text-teal-400 tracking-wider neon-text animate-pulse-slow">Gobi Krishnan</h1>
+            </div>
+            <!-- Menu -->
+            <ul class="flex space-x-8">
+                <li class="relative group">
+                    <a href="#home" class="text-lg font-semibold hover:text-teal-400 transition neon-hover">Home</a>
+                    <span class="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-teal-500 to-purple-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#about" class="text-lg font-semibold hover:text-teal-400 transition neon-hover">About</a>
+                    <span class="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-teal-500 to-purple-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#skills" class="text-lg font-semibold hover:text-teal-400 transition neon-hover">Skills</a>
+                    <span class="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-teal-500 to-purple-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#projects" class="text-lg font-semibold hover:text-teal-400 transition neon-hover">Projects</a>
+                    <span class="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-teal-500 to-purple-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                </li>
+                <li class="relative group">
+                    <a href="#contact" class="text-lg font-semibold hover:text-teal-400 transition neon-hover">Contact</a>
+                    <span class="absolute left-0 bottom-0 w-full h-1 bg-gradient-to-r from-teal-500 to-purple-600 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative z-10">
+        <div class="text-center animate-slide-up">
+            <div class="tilt-box w-48 h-48 md:w-64 md:h-64 mx-auto mb-8" data-tilt data-tilt-max="20" data-tilt-speed="400">
+                <img src="Profile.jpg" alt="Gobi Krishnan" class="w-full h-full rounded-full border-4 border-teal-600 shadow-neon object-cover">
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4 neon-text tracking-tight">Gobi Krishnan</h1>
+            <p class="text-xl md:text-3xl mb-6"><span id="typewriter" class="text-purple-400"></span></p>
+            <a href="#projects" class="bg-gradient-to-r from-teal-500 to-purple-600 text-white px-8 py-3 rounded-full hover:scale-105 transition transform">Discover My World</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 container mx-auto px-6 relative z-10 animate-on-scroll">
+        <h2 class="text-5xl font-bold text-center mb-12 neon-text">The Code Behind the Creator</h2>
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-lg mb-6">I’m a Java Full Stack Developer who lives at the intersection of creativity and logic. From architecting RESTful APIs with Spring Boot to designing immersive UIs with React.js, I build solutions that don’t just work—they inspire.</p>
+            <p class="text-lg mb-6">Currently honing my craft at JSpiders Institute, I’ve tackled real-world challenges—like a community-driven skill-sharing platform and a school management UI—while earning a BCA (CGPA: 7.4). I’m not just a coder; I’m a problem-solver with a competitive edge from LeetCode and HackerRank.</p>
+            <p class="text-teal-400 font-semibold text-xl">Ready to innovate, collaborate, and elevate your team.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-gray-900 bg-opacity-80 relative z-10 animate-on-scroll">
+        <h2 class="text-5xl font-bold text-center mb-12 neon-text">My Tech Stack</h2>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl px-6">
+            <div class="skill-card p-6 bg-black bg-opacity-70 rounded-lg shadow-neon hover:scale-105 transition">
+                <i class="fas fa-code text-teal-400 text-3xl mb-4"></i>
+                <h3 class="text-2xl font-semibold mb-2 text-teal-400">Languages</h3>
+                <p>Java (OOP, JDBC, Servlets), C, C++</p>
+            </div>
+            <div class="skill-card p-6 bg-black bg-opacity-70 rounded-lg shadow-neon hover:scale-105 transition">
+                <i class="fas fa-layer-group text-teal-400 text-3xl mb-4"></i>
+                <h3 class="text-2xl font-semibold mb-2 text-teal-400">Frameworks</h3>
+                <p>Spring Boot, Hibernate, React.js</p>
+            </div>
+            <div class="skill-card p-6 bg-black bg-opacity-70 rounded-lg shadow-neon hover:scale-105 transition">
+                <i class="fas fa-tools text-teal-400 text-3xl mb-4"></i>
+                <h3 class="text-2xl font-semibold mb-2 text-teal-400">Tools & Tech</h3>
+                <p>MySQL, HTML5, CSS3, Tailwind, Git, Maven</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 container mx-auto px-6 relative z-10 animate-on-scroll">
+        <h2 class="text-5xl font-bold text-center mb-12 neon-text">Masterpieces in Code</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+            <div class="project-card bg-gray-900 bg-opacity-80 p-6 rounded-lg shadow-neon cursor-pointer" onclick="openModal('skill-sharing')">
+                <h3 class="text-2xl font-semibold mb-3 text-teal-400">Skill-Sharing Community</h3>
+                <p>A vibrant platform uniting learners worldwide. Built with HTML, CSS, Bootstrap, PHP, and MySQL—featuring profiles, posts, and forums.</p>
+            </div>
+            <div class="project-card bg-gray-900 bg-opacity-80 p-6 rounded-lg shadow-neon cursor-pointer" onclick="openModal('school-ui')">
+                <h3 class="text-2xl font-semibold mb-3 text-teal-400">School Project UI</h3>
+                <p>A React.js-powered school management app with Tailwind CSS. Dynamic, responsive, and user-friendly. <a href="https://github.com/Gobikrishnanpro/School-Project-UI" class="text-purple-400 hover:underline">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <div id="modal" class="fixed inset-0 bg-black bg-opacity-90 hidden z-30 flex items-center justify-center">
+        <div id="modal-content" class="bg-gray-800 p-8 rounded-lg max-w-lg text-center relative">
+            <span class="absolute top-4 right-4 text-2xl cursor-pointer" onclick="closeModal()">×</span>
+            <div id="skill-sharing" class="modal-detail hidden">
+                <h3 class="text-2xl font-bold text-teal-400 mb-4">Skill-Sharing Community</h3>
+                <p>A fully functional platform for skill exchange. Engineered a robust backend with PHP and MySQL, paired with a sleek Bootstrap frontend. Key features: user authentication, content management, and real-time discussions.</p>
+            </div>
+            <div id="school-ui" class="modal-detail hidden">
+                <h3 class="text-2xl font-bold text-teal-400 mb-4">School Project UI</h3>
+                <p>A modern React.js app streamlining school operations. Leveraged Tailwind CSS for a responsive UI and modular components for scalability. Perfect for students, teachers, and admins.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-900 bg-opacity-80 relative z-10 animate-on-scroll">
+        <h2 class="text-5xl font-bold text-center mb-12 neon-text">Let’s Build Something Epic</h2>
+        <div class="container mx-auto max-w-lg text-center">
+            <p class="text-lg mb-4"><i class="fas fa-envelope text-teal-400 mr-2"></i> <a href="mailto:gobikrishnan.pro@gmail.com" class="text-teal-400 hover:underline">gobikrishnan.pro@gmail.com</a></p>
+            <p class="text-lg mb-4"><i class="fab fa-linkedin text-teal-400 mr-2"></i> <a href="https://www.linkedin.com/in/gobi-krishnan-k-pro" class="text-teal-400 hover:underline">gobi-krishnan-k-pro</a></p>
+            <p class="text-lg mb-6"><i class="fab fa-github text-teal-400 mr-2"></i> <a href="https://github.com/Gobikrishnanpro" class="text-teal-400 hover:underline">Gobikrishnanpro</a></p>
+            <a href="Gobi.pdf" download class="bg-gradient-to-r from-teal-500 to-purple-600 text-white px-8 py-3 rounded-full hover:scale-105 transition transform">Grab My Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-80 text-center py-8 border-t border-teal-600 relative z-10">
+        <p>© 2025 Gobi Krishnan | Crafted with <i class="fas fa-code text-teal-400"></i> and Vision</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
